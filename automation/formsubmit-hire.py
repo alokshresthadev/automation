@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
-driver_path = "/home/alok/Downloads/chromedriver-linux64/chromedriver"
+driver_path = "./chromedriver-linux64/chromedriver"
 serv_path = Service(driver_path)
 driver = webdriver.Chrome(service = serv_path)
 driver.get("https://arpanpariyar.com.np/")
